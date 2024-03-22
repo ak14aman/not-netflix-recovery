@@ -1,0 +1,28 @@
+.nav {
+  transition: ease all 0.5s !important;
+}
+.hide {
+  opacity: 0 !important;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.page__container {
+  margin-top: 68px;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 900;
+  /* font-size: 18px; */
+  letter-spacing: 0.2em;
+}
